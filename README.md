@@ -1,0 +1,2 @@
+# vsgit
+nocow
