@@ -22,7 +22,11 @@
     <Text Include="input.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="charsetcpp.cpp" />
+    <ClCompile Include="ObjectPool.cpp" />
+    <ClCompile Include="TestObjPool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ObjectPool.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{FC4A88C7-9BEF-4E44-93FF-88FBE25906E1}</ProjectGuid>

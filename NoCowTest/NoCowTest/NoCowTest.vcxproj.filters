@@ -20,8 +20,16 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="charsetcpp.cpp">
+    <ClCompile Include="ObjectPool.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TestObjPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
