@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <time.h>
+#include <>
 using namespace std;
 class WYG
 {
@@ -44,5 +45,6 @@ int main()
 	clock_t end = clock();
 	printf("use time:%f seconds.\n", 1.0 * (end - start) / CLOCKS_PER_SEC);
 	[]() {cout << "Hello world" << endl; }();
+
 	return 0;
 }
