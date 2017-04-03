@@ -21,6 +21,9 @@
   <ItemGroup>
     <Text Include="input.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AOP.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{FC4A88C7-9BEF-4E44-93FF-88FBE25906E1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
