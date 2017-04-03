@@ -229,5 +229,6 @@ int main()
 	Invoke<TimeElapsedAspect,AA, BB, EE, ParamPrint>(f, 2);
 	Invoke<TimeElapsedAspect>(f2);
 	Invoke<TimeElapsedAspect, ParamPrint>(GT, 2, 4);
+	Invoke<TimeElapsedAspect, ParamPrint>([](int n) { int x = 1; while (n--) x *= (n + 1); cout << x << endl; }, 10);
 	return 0;
 }
