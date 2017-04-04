@@ -20,7 +20,7 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AOP.cpp">
+    <ClCompile Include="SimpleIoC.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
