@@ -20,7 +20,12 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SimpleIoC.cpp">
+    <Library Include="C:\sqlite3\sqlite3.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="奖学金.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
