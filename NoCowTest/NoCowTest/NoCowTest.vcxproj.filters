@@ -25,7 +25,7 @@
     </Library>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LuDeng.cpp">
+    <ClCompile Include="hafuman.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
