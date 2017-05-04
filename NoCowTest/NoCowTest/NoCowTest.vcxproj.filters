@@ -25,7 +25,7 @@
     </Library>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Stock.cpp">
+    <ClCompile Include="DicSeq.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
