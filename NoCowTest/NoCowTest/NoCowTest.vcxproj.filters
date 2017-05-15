@@ -25,7 +25,7 @@
     </Library>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="gift_dp.cpp">
+    <ClCompile Include="MaXiTuan.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
