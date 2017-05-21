@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7b2307e7-5248-4a90-9b1f-8a5e6e36db49</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonProject.py</StartupFile>
+    <StartupFile>neural-networks-and-deep-learning\src\old\demo.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,46 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="grad_num.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="neural-networks-and-deep-learning\fig\backprop_magnitude_nabla.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\false_minima.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\generate_gradient.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\misleading_gradient.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\misleading_gradient_contours.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\mnist.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\more_data.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\multiple_eta.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\overfitting.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\pca_limitations.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\replaced_by_d3\relu.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\replaced_by_d3\sigmoid.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\replaced_by_d3\step.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\replaced_by_d3\tanh.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\serialize_images_to_json.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\valley.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\valley2.py" />
+    <Compile Include="neural-networks-and-deep-learning\fig\weight_initialization.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\conv.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\expand_mnist.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\mnist_average_darkness.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\mnist_loader.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\mnist_svm.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\network.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\network2.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\network3.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\old\blog\common_knowledge.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\old\blog\__init__.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\old\deep_autoencoder.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\old\deep_learning.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\old\demo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="neural-networks-and-deep-learning\src\old\gradient_descent_hack.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\old\mnist_autoencoder.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\old\mnist_pca.py" />
+    <Compile Include="neural-networks-and-deep-learning\src\old\perceptron_learning.py" />
     <Compile Include="PythonProject.py" />
   </ItemGroup>
   <ItemGroup>
@@ -33,6 +73,120 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="neural-networks-and-deep-learning\.gitignore" />
+    <Content Include="neural-networks-and-deep-learning\.git\config" />
+    <Content Include="neural-networks-and-deep-learning\.git\description" />
+    <Content Include="neural-networks-and-deep-learning\.git\HEAD" />
+    <Content Include="neural-networks-and-deep-learning\.git\hooks\applypatch-msg.sample" />
+    <Content Include="neural-networks-and-deep-learning\.git\hooks\commit-msg.sample" />
+    <Content Include="neural-networks-and-deep-learning\.git\hooks\post-update.sample" />
+    <Content Include="neural-networks-and-deep-learning\.git\hooks\pre-applypatch.sample" />
+    <Content Include="neural-networks-and-deep-learning\.git\hooks\pre-commit.sample" />
+    <Content Include="neural-networks-and-deep-learning\.git\hooks\pre-push.sample" />
+    <Content Include="neural-networks-and-deep-learning\.git\hooks\pre-rebase.sample" />
+    <Content Include="neural-networks-and-deep-learning\.git\hooks\prepare-commit-msg.sample" />
+    <Content Include="neural-networks-and-deep-learning\.git\hooks\update.sample" />
+    <Content Include="neural-networks-and-deep-learning\.git\index" />
+    <Content Include="neural-networks-and-deep-learning\.git\info\exclude" />
+    <Content Include="neural-networks-and-deep-learning\.git\logs\HEAD" />
+    <Content Include="neural-networks-and-deep-learning\.git\logs\refs\heads\master" />
+    <Content Include="neural-networks-and-deep-learning\.git\logs\refs\remotes\origin\HEAD" />
+    <Content Include="neural-networks-and-deep-learning\.git\objects\pack\pack-89ccbddfe106010a23b4fae06daa3b7c2900a23c.idx" />
+    <Content Include="neural-networks-and-deep-learning\.git\objects\pack\pack-89ccbddfe106010a23b4fae06daa3b7c2900a23c.pack" />
+    <Content Include="neural-networks-and-deep-learning\.git\packed-refs" />
+    <Content Include="neural-networks-and-deep-learning\.git\refs\heads\master" />
+    <Content Include="neural-networks-and-deep-learning\.git\refs\remotes\origin\HEAD" />
+    <Content Include="neural-networks-and-deep-learning\data\mnist.pkl.gz" />
+    <Content Include="neural-networks-and-deep-learning\fig\backprop_magnitude_nabla.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\data_1000.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\digits.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\digits_separate.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\false_minima.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\initial_gradient.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\misleading_gradient.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\misleading_gradient_contours.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\mnist_100_digits.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\mnist_2_and_1.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\mnist_complete_zero.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\mnist_first_digit.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\mnist_other_features.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\mnist_really_bad_images.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\mnist_top_left_feature.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\more_data.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\more_data.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\more_data_5.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\more_data_comparison.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\more_data_log.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\more_data_rotated_5.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\more_data_svm.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\multiple_eta.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\multiple_eta.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\norms_during_training_2_layers.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\norms_during_training_3_layers.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\norms_during_training_4_layers.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\overfitting.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\overfitting1.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\overfitting2.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\overfitting3.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\overfitting4.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\overfitting_full.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\overfitting_full.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\pca_hard_data.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\pca_hard_data_fit.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\regularized.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\regularized1.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\regularized2.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\regularized_full.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\regularized_full.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\replaced_by_d3\README.md" />
+    <Content Include="neural-networks-and-deep-learning\fig\replaced_by_d3\relu.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\replaced_by_d3\sigmoid.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\replaced_by_d3\step.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\replaced_by_d3\tanh.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\test.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\training_speed_2_layers.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\training_speed_3_layers.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\training_speed_4_layers.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\valley.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\valley2.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\weight_initialization_100.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\weight_initialization_100.png" />
+    <Content Include="neural-networks-and-deep-learning\fig\weight_initialization_30.json" />
+    <Content Include="neural-networks-and-deep-learning\fig\weight_initialization_30.png" />
+    <Content Include="neural-networks-and-deep-learning\README.md" />
+    <Content Include="neural-networks-and-deep-learning\requirements.txt" />
+    <Content Include="neural-networks-and-deep-learning\src\old\cost_vs_iterations.png" />
+    <Content Include="neural-networks-and-deep-learning\src\old\cost_vs_iterations_trapped.png" />
+    <Content Include="neural-networks-and-deep-learning\src\old\mnist_100_30_deep_autoencoder.png" />
+    <Content Include="neural-networks-and-deep-learning\src\old\mnist_100_unit_autoencoder.png" />
+    <Content Include="neural-networks-and-deep-learning\src\old\mnist_10_unit_autoencoder.png" />
+    <Content Include="neural-networks-and-deep-learning\src\old\mnist_30_component_pca.png" />
+    <Content Include="neural-networks-and-deep-learning\src\old\mnist_30_unit_autoencoder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="neural-networks-and-deep-learning\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\hooks\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\info\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\logs\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\logs\refs\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\logs\refs\heads\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\logs\refs\remotes\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\logs\refs\remotes\origin\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\objects\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\objects\info\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\objects\pack\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\refs\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\refs\heads\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\refs\remotes\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\refs\remotes\origin\" />
+    <Folder Include="neural-networks-and-deep-learning\.git\refs\tags\" />
+    <Folder Include="neural-networks-and-deep-learning\data\" />
+    <Folder Include="neural-networks-and-deep-learning\fig\" />
+    <Folder Include="neural-networks-and-deep-learning\fig\replaced_by_d3\" />
+    <Folder Include="neural-networks-and-deep-learning\src\" />
+    <Folder Include="neural-networks-and-deep-learning\src\old\" />
+    <Folder Include="neural-networks-and-deep-learning\src\old\blog\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

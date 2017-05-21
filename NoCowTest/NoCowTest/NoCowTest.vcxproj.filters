@@ -25,7 +25,7 @@
     </Library>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="scanMoGu.cpp">
+    <ClCompile Include="inter_string.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
