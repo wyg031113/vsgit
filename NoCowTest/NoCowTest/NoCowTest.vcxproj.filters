@@ -25,7 +25,7 @@
     </Library>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="inter_string.cpp">
+    <ClCompile Include="expressions.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
