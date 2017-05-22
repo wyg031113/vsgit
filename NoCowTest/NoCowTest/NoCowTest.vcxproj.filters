@@ -25,7 +25,7 @@
     </Library>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="expressions.cpp">
+    <ClCompile Include="KMP.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
