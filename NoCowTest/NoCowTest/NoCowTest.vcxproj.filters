@@ -25,7 +25,7 @@
     </Library>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="最长回文子串.cpp">
+    <ClCompile Include="KMP2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
