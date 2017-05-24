@@ -25,7 +25,7 @@
     </Library>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MaxGap.cpp">
+    <ClCompile Include="functional_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
