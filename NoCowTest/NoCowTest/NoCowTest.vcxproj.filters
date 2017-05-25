@@ -25,7 +25,7 @@
     </Library>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="数组单调和.cpp">
+    <ClCompile Include="LIS.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
